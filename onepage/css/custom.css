@@ -128,6 +128,10 @@ a.navbar-brand:focus {
   margin-top: 15px;
 }
 
+.intro-body > .container {
+  position: relative;
+}
+
 @media(min-width: 768px) {
   .navbar {
     padding: 30px 0;
@@ -275,3 +279,37 @@ a.navbar-brand:focus {
   }
 }
 */
+
+#mobile-layer {
+  position: absolute;
+  bottom: 0;
+  border-top: 2px solid #fff;
+  border-left: 2px solid #fff;
+  border-right: 2px solid #fff;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  text-align: left;
+  width: 265px;
+  height: 300px;
+  left: -100px;
+  background-color: #222;
+}
+
+#mobile-layer .layer-body {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0 30px;
+  padding-bottom: 15px;
+}
+
+#mobile-layer .layer-body > h2 {
+  font-size: 1.6em;
+  margin-bottom: 15px;
+  line-height: 1.3;
+}
+
+#mobile-layer .layer-body > p {
+  font-size: 0.9em;
+  color: lightgray;
+}
