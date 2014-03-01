@@ -28,10 +28,20 @@ p {
   }
 }
 
+.modal-vertical-centered {
+  transform: translate(0, 50%) !important;
+  -ms-transform: translate(0, 50%) !important; /* IE 9 */
+  -webkit-transform: translate(0, 50%) !important; /* Safari and Chrome */
+}
+
 .navbar {
   margin-bottom: 0;
   border-bottom: 1px solid rgba(255,255,255,.3);
   background-color: #222;
+}
+
+.input-custom {
+  background-color: #eee;
 }
 
 .navbar-brand {
@@ -312,4 +322,45 @@ a.navbar-brand:focus {
 #mobile-layer .layer-body > p {
   font-size: 0.9em;
   color: lightgray;
+}
+
+/* Start Now Modal */
+
+#modal-start-now {
+  padding-top: 150px;
+}
+
+#modal-start-now .modal-body {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#modal-start-now .modal-body .panel-left {
+  padding: 30px;
+}
+
+#modal-start-now .modal-body .panel-left > h1 {
+  margin: 0;
+}
+
+#modal-start-now .modal-body .panel-left > .list-inline {
+  margin: 30px 0 30px 0;
+}
+
+#modal-start-now .modal-body .panel-left > .list-inline a {
+  color: gray;
+}
+
+#modal-start-now .modal-body .panel-left > .list-inline li.active a {
+  color: #ff6240;
+}
+
+#modal-start-now .modal-body .panel-left > .list-inline label {
+  font-weight: 500;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+
+#modal-start-now .modal-body .panel-left > .list-inline input[type=radio] {
+  margin-right: 5px;
 }
