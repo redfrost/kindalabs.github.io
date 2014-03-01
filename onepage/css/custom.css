@@ -238,6 +238,10 @@ a.navbar-brand:focus {
 
 /* #what */
 
+#what {
+  padding-bottom: 30px;
+}
+
 #what .section-heading {
   font-size: 2.8em;
   font-weight: 300;
@@ -267,28 +271,6 @@ a.navbar-brand:focus {
 }
 
 /* #why */
-/*
-#why {
-  display: table;
-  width: 100%;
-  height: auto;
-  padding: 100px 0;
-  text-align: center;
-  background: url(../img/gplaypattern.png) repeat scroll;
-  background-color: #efefef;
-}
-
-#why .why-body {
-  display: table-cell;
-}
-
-@media(min-width: 768px) {
-  #why {
-    height: 100%;
-    padding: 0;
-  }
-}
-*/
 
 #mobile-layer {
   position: absolute;
